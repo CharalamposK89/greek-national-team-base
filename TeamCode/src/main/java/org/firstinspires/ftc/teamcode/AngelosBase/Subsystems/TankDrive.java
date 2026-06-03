@@ -25,6 +25,7 @@ public class TankDrive {
     // KV: is the velocity gain -> Fixes Motor Inaccuracies Linearly
     private static final double[] LEFT_FEEDFORWARD = {0.05, 1.0}; // KS, KV for left motor
     private static final double[] RIGHT_FEEDFORWARD = {0.05, 1.0}; // KS, KV for right motor
+
     private static final double KS_THETA = 0.05; // Static gain for turning
 
     // Power Mapping Constants
