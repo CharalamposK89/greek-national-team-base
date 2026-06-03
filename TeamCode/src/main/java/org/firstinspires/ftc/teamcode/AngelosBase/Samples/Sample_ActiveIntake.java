@@ -7,7 +7,7 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import org.firstinspires.ftc.teamcode.AngelosBase.Subsystems.ActiveIntake;
 import org.firstinspires.ftc.teamcode.AngelosBase.Util.GamepadEx;
 
-@Disabled // Remove this to see it on the Driver Station
+//@Disabled // Remove this to see it on the Driver Station
 @TeleOp(name="Sample_ActiveIntake", group="Samples")
 public class Sample_ActiveIntake extends LinearOpMode {
     private GamepadEx controller;

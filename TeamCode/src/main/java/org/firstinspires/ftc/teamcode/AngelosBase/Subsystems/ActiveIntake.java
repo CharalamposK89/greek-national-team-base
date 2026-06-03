@@ -13,7 +13,7 @@ public class ActiveIntake {
     private static final boolean TELEMETRY_ENABLED = true;
     private static final String INTAKE_MOTOR_NAME = "intake";
     private static final double FORWARD_VELOCITY = 1.0, REVERSE_VELOCITY = -1.0;
-    private static final DcMotorSimple.Direction INTAKE_DIRECTION = DcMotorSimple.Direction.FORWARD; // Set to REVERSE if intake is reversed
+    private static final DcMotorSimple.Direction INTAKE_DIRECTION = DcMotorSimple.Direction.REVERSE; // Set to REVERSE if intake is reversed
     private static final DcMotorEx.ZeroPowerBehavior INTAKE_ZERO_POWER_BEHAVIOR = DcMotorEx.ZeroPowerBehavior.BRAKE; // Set to FLOAT if you want the intake to coast when stopped
 
 
